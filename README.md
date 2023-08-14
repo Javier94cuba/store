@@ -10,7 +10,7 @@ npm install react-router-dom -E<br/>
 npm install standard -D  <br/>
 npm install sass --save-dev  <br/>
 
-#Historias de usuario
+#Historias de usuario<br/>
 Puedes filtrar por categorias los productos<br/>
 Puedes escoger un rango de precio existentes para los productos
 
