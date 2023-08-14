@@ -18,3 +18,4 @@ Puedes escoger un rango de precio existentes para los productos
 https://store-17u5.vercel.app (puedes ver online, este landing page)<br/>
 vercel.json
 
+![Fake Store](https://github.com/Javier94cuba/store/assets/68443087/a9f0265c-5218-4f5d-8dda-b14b4802c9a5)
