@@ -49,3 +49,27 @@ select {
 .input_bar {
   margin-left: 40px;
 }
+
+//Movil
+@media (max-width: 767px) {
+  .methods {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    align-items: center;
+    align-content: center;
+    background-color: red;
+  }
+  section {
+    margin-left: 100px;
+    margin-bottom: -50px;
+  }
+}
+
+//Tablet
+@media ((min-width: 768px) and (max-width:1200px)) {
+}
+
+//PC
+@media only screen and (min-width: 1201px) {
+}

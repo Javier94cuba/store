@@ -59,3 +59,26 @@ main {
 .title-product {
   font-size: 18px;
 }
+
+//Media-queries
+
+//Movil
+@media (max-width: 767px) {
+  .card {
+    width: 400px;
+    display: flex;
+    margin-left: 30px;
+  }
+}
+
+//Tablet
+@media ((min-width: 768px) and (max-width:1200px)) {
+  .card {
+  }
+}
+
+//PC
+@media only screen and (min-width: 1201px) {
+  .card {
+  }
+}

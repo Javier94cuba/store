@@ -18,7 +18,7 @@ export function Category_Selected() {
         </section>
 
         <div className="price_selected">
-          <h2>Choose a range price:</h2>
+          <h2>Choose a range price</h2>
           <input
             id="pi_input"
             className="input_bar"
