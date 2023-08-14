@@ -67,11 +67,13 @@ main {
   .card {
     width: 300px;
     display: flex;
+    margin-right: 50px;
   }
   .product {
     width: 350px;
     margin: 0px;
     margin-bottom: 40px;
+    margin-right: 50px;
 
     .img {
       max-width: 100px;
