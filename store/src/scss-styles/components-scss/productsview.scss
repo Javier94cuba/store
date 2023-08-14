@@ -2,6 +2,8 @@
   background-color: white;
   width: 90%;
   margin-left: 100px;
+  justify-content: center;
+
   .img {
     max-width: 400px;
     max-height: 200px;
@@ -65,21 +67,26 @@ main {
 //Movil
 @media (max-width: 767px) {
   .card {
-    width: 300px;
+    width: auto;
     display: flex;
-    margin-right: 75px;
+    justify-content: center;
+    align-items: center;
     padding: 5px;
   }
   .product {
     width: 350px;
-    margin: 0px;
-    margin-bottom: 40px;
     margin-right: 75px;
-    padding: 5px;
+    justify-content: center;
+    align-items: center;
 
     .img {
       max-width: 100px;
       max-height: 150px;
+    }
+
+    button {
+      color: white;
+      background-color: black;
     }
   }
 }

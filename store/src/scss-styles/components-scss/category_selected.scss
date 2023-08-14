@@ -23,8 +23,7 @@ label {
 }
 
 select {
-  margin-bottom: 80px;
-  margin-left: 60px;
+  margin-left: 40px;
   font-size: larger;
   background-color: black;
   padding: 5px;
@@ -32,13 +31,13 @@ select {
 
 .methods {
   display: flex;
-  margin-left: 300px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 400px;
 }
 
 .price_selected {
   color: black;
-  margin-left: 100px;
-  margin-bottom: 30px;
 }
 
 .value {
@@ -55,11 +54,13 @@ select {
   .methods {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     margin: 0px;
   }
-  section {
-    margin-left: 100px;
-    margin-bottom: -50px;
+  .input_bar {
+    justify-content: center;
+    background-color: red;
   }
 }
 
