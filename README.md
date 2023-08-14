@@ -3,7 +3,7 @@ Proyecto creado con vite+react+javascript
 
 #Fake Store, una tienda online con varios elementos extraidos de la API (https://fakestoreapi.com/products) de https://fakestoreapi.com.
 
-#Dependencias
+#Dependencias<br/>
 npm create vite@latest
 npm install react-router-dom -E
 npm install standard -D  
