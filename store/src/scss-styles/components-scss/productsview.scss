@@ -65,9 +65,18 @@ main {
 //Movil
 @media (max-width: 767px) {
   .card {
-    width: 400px;
+    width: 300px;
     display: flex;
-    margin-left: 30px;
+  }
+  .product {
+    width: 350px;
+    margin: 0px;
+    margin-bottom: 40px;
+
+    .img {
+      max-width: 100px;
+      max-height: 150px;
+    }
   }
 }
 
