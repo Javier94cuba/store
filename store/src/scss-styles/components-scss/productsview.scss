@@ -1,11 +1,10 @@
 .card {
   background-color: white;
-  width: 100%;
-
+  width: 90%;
+  margin-left: 100px;
   .img {
-    max-width: 500px;
-    max-height: 280px;
-    border-radius: 40px;
+    max-width: 400px;
+    max-height: 200px;
     overflow: hidden;
     cursor: pointer;
     transition: all 0.3ms ease-in-out;
@@ -17,18 +16,23 @@
 
 .product {
   text-align: center;
-  width: 550px;
-  height: 500px;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  width: 400px;
+  height: 450px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+  border: 2px solid gray;
+  border-radius: 10px;
+  margin-left: 32px;
 
   //   align-content: center;
 }
 
 h1 {
   text-align: center;
-  padding: 120px;
-  color: black;
+  padding: 20px;
+  color: rgb(44, 43, 43);
+  font-family: "Times New Roman", Times, serif, Helvetica, sans-serif;
 }
 
 .card {
@@ -44,4 +48,14 @@ p {
 
 main {
   background-color: white;
+}
+
+.price {
+  color: red;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+.title-product {
+  font-size: 18px;
 }

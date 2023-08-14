@@ -1,0 +1,51 @@
+.imput {
+  color: black;
+}
+
+h2 {
+  color: black;
+  margin-left: 40px;
+}
+
+input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+select {
+  margin-bottom: 80px;
+  margin-left: 60px;
+  font-size: larger;
+  background-color: black;
+  padding: 5px;
+}
+
+.methods {
+  display: flex;
+  margin-left: 300px;
+}
+
+.price_selected {
+  color: black;
+  margin-left: 100px;
+  margin-bottom: 30px;
+}
+
+.value {
+  margin-left: 44px;
+  margin-top: 30px;
+}
+
+.input_bar {
+  margin-left: 40px;
+}
