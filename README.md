@@ -1,5 +1,5 @@
 # store
-Proyecto creado con vite+react+javascript
+Proyecto creado con vite+react+javascript+scss
 
 #Fake Store<br/>
 Una tienda online con varios elementos extraidos de la API (https://fakestoreapi.com/products) de https://fakestoreapi.com.
