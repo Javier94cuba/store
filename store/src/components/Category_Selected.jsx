@@ -1,20 +1,23 @@
-import { useState } from "react";
 import "../scss-styles/components-scss/category_selected.scss";
-export function Category_Selected() {
-  const [category, SetCategory] = useState(false);
-
+export function Category_Selected({ setCategory }) {
   return (
     <div className="methods">
-      <h2>Selected category</h2>
-      <select name="categorys" id="cat">
+      <h3>Selected category</h3>
+
+      <select
+        name="categorys"
+        id="cat"
+        // value={value}
+        onChange={(e) => setCategory(e.target.value)}
+      >
         <option value="category">Select category</option>
-        <option value="category">Mans-Clothes</option>
-        <option value="php">Womens-Clothes</option>
-        <option value="java">Jewelery</option>
-        <option value="golang">Electronics</option>
+        <option value="mans-clothes">Mans-Clothes</option>
+        <option value="women-clothes">Womens-Clothes</option>
+        <option value="jewelery">Jewelery</option>
+        <option value="electronics">Electronics</option>
       </select>
 
-      <h2>Choose a range price</h2>
+      <h3>Choose a range price</h3>
       <input
         id="pi_input"
         className="input_bar"
