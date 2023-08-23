@@ -7,12 +7,11 @@ export function Category_Selected({ setCategory }) {
       <select
         name="categorys"
         id="cat"
-        // value={value}
         onChange={(e) => setCategory(e.target.value)}
       >
         <option value="category">Select category</option>
-        <option value="mans-clothes">Mans-Clothes</option>
-        <option value="women-clothes">Womens-Clothes</option>
+        <option value="men's clothing">men's clothing</option>
+        <option value="women's clothing">Womens-Clothes</option>
         <option value="jewelery">Jewelery</option>
         <option value="electronics">Electronics</option>
       </select>
